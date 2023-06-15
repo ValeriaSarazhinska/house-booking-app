@@ -8,6 +8,7 @@ export default function IndexPage() {
             setPlaces(response.data)
         })
     }, [])
+
     return (
         <div className="mt-8 grid gap-x-6 gap-y-8 grid-cols-2 md:grid-cols-3 lg:grid cols-4">
             {places.length > 0 && places.map(place => (
