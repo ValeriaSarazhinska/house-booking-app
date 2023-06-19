@@ -11,6 +11,6 @@ export default {
         }
     },
   },
-  plugins: [],
+  plugins: ['./src/**/*.{js,jsx,ts,tsx}'],
 }
 
